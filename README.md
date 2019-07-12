@@ -1,3 +1,5 @@
+Waytless is a completed restaurant waitlist management system with menu ordering feature. It is build on MEAN stack and configurated to be deployed on Azure environmment. It supports Google OAuth login with exisitng restaurant owner account. 
+
 ## To run server
 
 cd WaytLess\expressNode  
@@ -13,17 +15,8 @@ cd WaytLess\expressNode\createDB
 mongo  
 load('createSampleData.js')
 
-# Frontend
-
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
-We plan to build Waytless using this boilerplate code.
-
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
 ## Build
 
@@ -41,7 +34,3 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Deploying to GitHub Pages
 
 Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
